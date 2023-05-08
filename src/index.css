@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.LogInCont {
+  padding: 2vh 0.5vw 0vh 0.5vw !important;
+  width: 70vw !important;
+  height: 77vh !important;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 0;
+  border-image: linear-gradient(to left, #ee7724, #d8363a, #dd3675, #b44593) 30 !important;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.gradient-custom-2 {
+  background: #fccb90;
+
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 90vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
